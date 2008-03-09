@@ -14,7 +14,7 @@ Summary:       %{languageenglazy} files for aspell
 Summary(br):   Geriadur brezhonek evit aspell
 Name:          aspell-%{languagecode}
 Version:       %ver_major.%ver_minor
-Release:       %mkrel 3
+Release:       %mkrel 4
 Group:         System/Internationalization
 Source:        ftp://ftp.gnu.org/gnu/aspell/aspell-%{languagecode}-%{src_ver}.tar.bz2
 URL:           http://aspell.net/
@@ -29,6 +29,8 @@ Requires:      aspell >= 0.50
 
 # Mandriva Stuff
 Requires:      locales-%{languagecode}
+# aspell = 1, myspell = 2, lang-specific = 3
+Provides:      enchant-dictionary = 1
 Provides:      aspell-dictionary
 Provides:	   aspell-%{lc_ctype}
 
