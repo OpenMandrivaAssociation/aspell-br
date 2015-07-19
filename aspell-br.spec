@@ -14,7 +14,7 @@ Summary:	%{languageenglazy} files for aspell
 Summary(br):	Geriadur brezhonek evit aspell
 Name:		aspell-%{languagecode}
 Version:	%ver_major.%ver_minor
-Release:	19
+Release:	20
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.net/
