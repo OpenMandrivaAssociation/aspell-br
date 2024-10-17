@@ -17,7 +17,7 @@ Version:	%ver_major.%ver_minor
 Release:	23
 Group:		System/Internationalization
 License:	GPLv2
-Url:		http://aspell.net/
+Url:		https://aspell.net/
 Source0:	ftp://ftp.gnu.org/gnu/aspell/aspell-%{languagecode}-%{src_ver}.tar.bz2
 
 BuildRequires:	aspell >= 0.50
