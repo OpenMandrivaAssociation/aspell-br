@@ -1,7 +1,7 @@
 %define _enable_debug_packages %{nil}
 %define debug_package          %{nil}
 
-%define ver_major 0.60
+%define ver_major 0.50
 %define ver_minor 2
 
 %define src_ver %ver_major-%ver_minor
@@ -13,12 +13,13 @@
 Summary:	%{languageenglazy} files for aspell
 Summary(br):	Geriadur brezhonek evit aspell
 Name:		aspell-%{languagecode}
+Epoch:		1
 Version:	%ver_major.%ver_minor
-Release:	23
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2
 Url:		https://aspell.net/
-Source0:	ftp://ftp.gnu.org/gnu/aspell/aspell-%{languagecode}-%{src_ver}.tar.bz2
+Source0:	https://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell-%{languagecode}-%{src_ver}.tar.bz2
 
 BuildRequires:	autoconf
 BuildRequires:	automake
